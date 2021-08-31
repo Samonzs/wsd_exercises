@@ -1,0 +1,27 @@
+﻿@page
+@model Magazine20056663.Pages.MagazineTest.SubscribeModel
+@{
+
+    <h4>You have subscirbed: @ViewData["Magazine Name"]</h4>
+
+
+    switch (@ViewData["MagazineID"])
+    {
+        case 1:
+            <img src="~/images/scientifcAmerican800x400.jpg" />
+            break;
+        case 2:
+            <img src="~/images/newScientist800x400.jpg" />
+            break;
+        case 3:
+            <img src="~/images/readersDigest800x400.png" />
+            break;
+        case 4:
+            <img src="~/images/nationalGeographic800x400.jpg" />
+            break;
+    }
+
+    <br/>
+    <h3>Total Price: <strong>$@ViewData["Total:"]</strong></h3>
+
+}

@@ -1,0 +1,59 @@
+﻿@page
+@model Magazine20056663.Pages.Customers.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Customer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Customer.familyName" class="control-label"></label>
+                <input asp-for="Customer.familyName" class="form-control" />
+                <span asp-validation-for="Customer.familyName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.givenName" class="control-label"></label>
+                <input asp-for="Customer.givenName" class="form-control" />
+                <span asp-validation-for="Customer.givenName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.dateOfBirth" class="control-label"></label>
+                <input asp-for="Customer.dateOfBirth" class="form-control" />
+                <span asp-validation-for="Customer.dateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.emailAddress" class="control-label"></label>
+                <input asp-for="Customer.emailAddress" class="form-control" />
+                <span asp-validation-for="Customer.emailAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.mobileNumber" class="control-label"></label>
+                <input asp-for="Customer.mobileNumber" class="form-control" />
+                <span asp-validation-for="Customer.mobileNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Customer.postalCode" class="control-label"></label>
+                <input asp-for="Customer.postalCode" class="form-control" />
+                <span asp-validation-for="Customer.postalCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,31 @@
+﻿@page
+@model Magazine20056663.Pages.Magazines.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Magazine</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Magazine.magazineName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Magazine.magazineName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Magazine.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Magazine.Price)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Magazine.magazineID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
