@@ -1,0 +1,52 @@
+﻿@page
+@model Magazine20056663.Pages.Magazines.PurchaseModel
+@{
+    ViewData["Title"] = "Purchase";
+}
+
+<h2>Purchase Magazines</h2>
+<br />
+
+<form asp-page="Purchase">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="MagazineSubscribe.magazineName" class="control-label"></label>
+        <select asp-for="MagazineSubscribe.magazineName" asp-items="Model.TitleList" class="form-control">
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="MagazineSubscribe.magazineCount" class="control-label"></label>
+        <input asp-for="MagazineSubscribe.magazineCount" class="form-control" />
+        <span asp-validation-for="MagazineSubscribe.magazineCount" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MagazineSubscribe.creditCard" class="control-label"></label>
+        <input asp-for="MagazineSubscribe.creditCard" class="form-control" />
+        <span asp-validation-for="MagazineSubscribe.creditCard" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Purchase" class="btn btn-primary" />
+    </div>
+</form>
+<br />
+@if (ViewData["TotalPrice"] != null)
+{
+    <h5>
+        You have purchased <b>@Model.MagazineSubscribe.magazineCount</b> magazines
+        for the magazine <b>@Model.MagazineSubscribe.magazineName</b>
+    </h5>
+
+    <h5>The Total Price is: <b>$@ViewData["TotalPrice"]</b>.</h5>
+    <hr/>
+    <h3>
+        The credit card number to be charged is: <b>@Model.MagazineSubscribe.creditCard</b>
+    </h3>
+}
+
+<div>
+    <a asp-page="./Index">Back to Magazine List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

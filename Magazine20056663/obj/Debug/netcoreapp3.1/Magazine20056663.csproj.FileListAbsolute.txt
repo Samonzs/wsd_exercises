@@ -179,6 +179,7 @@ C:\Users\User\source\repos\Magazine20056663\Magazine20056663\obj\Debug\netcoreap
 C:\Users\User\source\repos\Magazine20056663\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\Customers\Details.cshtml.g.cs
 C:\Users\User\source\repos\Magazine20056663\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\Customers\Edit.cshtml.g.cs
 C:\Users\User\source\repos\Magazine20056663\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\Customers\Index.cshtml.g.cs
+C:\Users\User\source\repos\Magazine20056663\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\Magazines\Purchase.cshtml.g.cs
 C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\bin\Debug\netcoreapp3.1\Magazine20056663.exe
@@ -346,6 +347,7 @@ C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\obj\Debug\netcoreapp3
 C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\Magazines\Details.cshtml.g.cs
 C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\Magazines\Edit.cshtml.g.cs
 C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\Magazines\Index.cshtml.g.cs
+C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\Magazines\Purchase.cshtml.g.cs
 C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\MagazineTest\Index.cshtml.g.cs
 C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\MagazineTest\Subscribe.cshtml.g.cs
 C:\Users\User\Documents\dev\wsd_exercises\Magazine20056663\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs

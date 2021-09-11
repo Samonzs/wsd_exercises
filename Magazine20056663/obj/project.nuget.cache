@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jr8KAifQ9VaqhDIgYJDMzxFQOw/LXtWNlxNkUwmwrFgjvEcXqbPvZ5kfIlosY9M4b5fuuv5eBJNl8S8XJHq6Uw==",
+  "dgSpecHash": "XGWOykil4BlhzCL77wGKOz81/kro8ELNGyZ0sgGMPTRjGtRmfc9DGzSnstF1UI+cx0QGhgP8749pSVuQEBej6A==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Documents\\dev\\wsd_exercises\\Magazine20056663\\Magazine20056663.csproj",
   "expectedPackageFiles": [
@@ -172,7 +172,8 @@
     "C:\\Users\\User\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
   ],
   "logs": []
 }
