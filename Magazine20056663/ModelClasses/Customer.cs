@@ -17,10 +17,6 @@ namespace Magazine20056663.ModelClasses
         [RegularExpression(@"[a-zA-Z-']{2,20}$", ErrorMessage = "This magazine field needs to be between 2 and 20 alphabetic characters. hyphens and apostrophe's are permitted only")]
 
         public string givenName { get; set; }
-        [DataType(DataType.Date)]
-        [Display(Name = "Date of Birth")]
-        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
-
         public string dateOfBirth { get; set; }
         [Required(ErrorMessage = "Email is Required")]
         [EmailAddress]
