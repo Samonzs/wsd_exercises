@@ -25,15 +25,7 @@ namespace Magazine20056663.Pages.Customers
         [BindProperty(SupportsGet = true)]
         public string SearchString { get; set; }
         public async Task OnGetAsync()
-        {
-            var customers = (IQueryable<Customer>)_context.Customer;
-
-            if (!String.IsNullOrEmpty(SearchString))
-            {
-                customers = customers.Where(s => s.givenName.Contains(SearchString));
-            }
-
-            Customer = await customers.ToListAsync();
+        {            
             var customers = (IQueryable<Customer>)_context.Customer;
 
             if (!String.IsNullOrEmpty(SearchString))
